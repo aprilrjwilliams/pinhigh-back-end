@@ -5,7 +5,7 @@
   "main": "server.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aprilrjwilliams/pinhigh.git"
+    "url": "https://github.com/aprilrjwilliams/pinhigh-back-end.git"
   },
   "scripts": {
     "start": "node ./server.js",
