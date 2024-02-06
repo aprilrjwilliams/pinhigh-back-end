@@ -53,7 +53,7 @@ app.use("", require("./routes/user.js"))
 app.use("", require("./routes/auth.js"))
 app.use("/api", require("./routes/stripe.js"));
 
-let port = process.env.NODE_ENV === 'production' ? 80 : 4000;
+let port = process.env.PORT || 4000;
 
 app.listen(port, ()=>{
     console.log('port ', port);
